@@ -1,0 +1,23 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html, body {
+    /* A4 sizing */
+    width: 210mm;
+    height: 297mm;
+
+    margin: 0;
+  }
+}
+
+body {
+  /* A4 sizing */
+  width: 210mm;
+  height: 297mm;
+
+  margin: 0;
+  background: rgb(211, 211, 211);
+}
