@@ -75,8 +75,10 @@ div.entry-header span.title {
 }
 
 div.entry-header span.company {
-  text-decoration: underline;
   font-weight: 600;
+  left: 45%;
+  position: absolute;
+  text-decoration: underline;
 }
 
 div.entry-header-right {
