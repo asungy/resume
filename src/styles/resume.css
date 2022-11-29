@@ -84,3 +84,8 @@ div.entry-header-right {
   flex-direction: column;
   text-align: center;
 }
+
+ul.entry-bullets {
+  margin: 0;
+  padding-left: 1em;
+}

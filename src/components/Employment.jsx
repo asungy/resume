@@ -14,10 +14,21 @@ const entries = [
     location: "Remote",
     start: "02/2022",
     end: "Current",
-    points: [
+    bullets: [
       "TODO-1",
       "TODO-2",
       "TODO-3"
+    ]
+  },
+  {
+    title: "Performance Test Engineer",
+    company: "Vision Point Systems",
+    location: "Remote",
+    start: "08/2020",
+    end: "01/2022",
+    bullets: [
+      <i>TODO-1</i>,
+      <b>TODO-2</b>
     ]
   }
 ];
@@ -34,13 +45,19 @@ function Entry(props) {
           <span style={{fontStyle: "italic"}}>{entry.location}</span>
         </div>
       </div>
+
+      <ul className="entry-bullets">
+        {entry.bullets.map((bullet) => <li>{bullet}</li>)}
+      </ul>
     </div>
   );
 }
 
-function Entries() {
+function Entries(props) {
+  let entries = props.entries;
   return (
     <div>
+      {entries.map((entry) => <Entry key={entry.title} entry={entry} />)}
     </div>
   );
 }
@@ -49,7 +66,7 @@ function Employment() {
   return (
     <div id="employment">
       <SectionHeader />
-      <Entry key="Epistemix" entry={entries[0]} />
+      <Entries entries={entries}/>
     </div>
   );
 }
