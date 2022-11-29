@@ -1,6 +1,11 @@
+import '../styles/resume.css';
+import Header from './Header';
+
 function Resume() {
   return (
-    <h1>Hello world</h1>
+    <div className='page'>
+      <Header />
+    </div>
   );
 }
 
