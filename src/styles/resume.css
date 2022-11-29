@@ -3,33 +3,54 @@
   width: 210mm;
   height: 297mm;
 
-  background: white;
-  display: flex;
-  margin: 0;
+  /* Hack fix for Brave */
+  border: 1px solid black;
 
-  font-family: "Times New Roman";
+  background: white;
 }
 
-.header {
-  text-align: center;
-  width: 100%;
-  padding-top: 3.00mm;
+.content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman";
+  max-height: 100%;
+  margin: 3.00mm 7.00mm;
 }
 
 /* Links with no style */
-.no-style-link, a {
+a.no-style-link {
   color: inherit;
   text-decoration: inherit;
 }
 
 /* Image icons in the info bar */
-.info-icon, img {
+img.info-icon {
   width: 1.15em;
   height: auto;
 }
 
+#header {
+  text-align: center;
+  width: 100%;
+}
+
+/* Where your name goes */
 #header-name {
   font-size: 2.25em;
   font-weight: bold;
   padding-bottom: 0.50mm;
+}
+
+#employment {
+  margin-top: 3.50mm;
+}
+
+.section-header {
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+.section-header p, hr {
+  color: #000000;
+  margin: 0;
 }

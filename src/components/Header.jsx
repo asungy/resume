@@ -105,7 +105,7 @@ function InfoBar() {
 
 function Header() {
   return (
-    <div className='header'>
+    <div id='header'>
       <Name />
       <InfoBar />
     </div>

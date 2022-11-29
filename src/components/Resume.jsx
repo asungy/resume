@@ -1,10 +1,14 @@
-import '../styles/resume.css';
-import Header from './Header';
+import "../styles/resume.css";
+import Employment from "./Employment";
+import Header from "./Header";
 
 function Resume() {
   return (
-    <div className='page'>
-      <Header />
+    <div className="page">
+      <div className="content">
+        <Header />
+        <Employment />
+      </div>
     </div>
   );
 }

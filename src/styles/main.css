@@ -4,7 +4,7 @@
 }
 
 @media print {
-  .root {
+  .page {
     /* A4 sizing */
     width: 210mm;
     height: 297mm;
