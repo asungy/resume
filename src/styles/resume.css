@@ -1,4 +1,4 @@
-.page {
+div.page {
   /* A4 sizing */
   width: 210mm;
   height: 297mm;
@@ -9,7 +9,7 @@
   background: white;
 }
 
-.content {
+div.content {
   display: flex;
   flex-direction: column;
   font-family: "Times New Roman";
@@ -45,12 +45,42 @@ img.info-icon {
   margin-top: 3.50mm;
 }
 
-.section-header {
+div.section-header {
   font-size: 1.15em;
   font-weight: 600;
 }
 
-.section-header p, hr {
+.section-header span, hr {
   color: #000000;
   margin: 0;
+}
+
+div.employment-entry {
+  margin-top: 0.60em;
+}
+
+div.entry-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.entry-header span {
+  color: #000000;
+  font-size: 0.95em;
+  margin: 0;
+}
+
+div.entry-header span.title {
+  font-weight: 600;
+}
+
+div.entry-header span.company {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+div.entry-header-right {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
