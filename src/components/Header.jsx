@@ -1,5 +1,6 @@
+import githubIcon from "../assets/github_icon.png";
 import gmailIcon from "../assets/gmail_icon.jpg";
-import linkedinIcon from "../assets/linkedin_icon.png"
+import linkedinIcon from "../assets/linkedin_icon.png";
 import phoneIcon from "../assets/phone_icon.png";
 
 const PHONE_ID = "phone-number";
@@ -67,7 +68,7 @@ function InfoBar() {
           <img
             className="info-icon"
             src={linkedinIcon}
-            alt="Attribution: https://www.flaticon.com/free-icons/linkedin"
+            alt="Attribution: Created by riajulislam at https://www.flaticon.com/free-icons/linkedin"
             style={{width: "0.90em", height: "auto"}}
           />
         </a>
@@ -78,6 +79,26 @@ function InfoBar() {
           linkedin.com/in/sungalexander
         </a>
       </span>
+
+      <span>&nbsp;|&nbsp;</span>
+
+      <span>
+        <a href="https://www.github.com/asungy">
+          <img
+            className="info-icon"
+            src={githubIcon}
+            alt="Attribution: Created by Dave Gandy at https://www.flaticon.com/free-icons/github-sign"
+            style={{width: "0.90em", height: "auto"}}
+          />
+        </a>
+        <span>&nbsp;</span>
+        <a href="https://www.github.com/asungy"
+          className="no-style-link"
+        >
+          github.com/asungy
+        </a>
+      </span>
+
     </div>
   );
 }

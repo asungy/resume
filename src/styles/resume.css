@@ -17,7 +17,7 @@
 }
 
 /* Links with no style */
-.no-style-link {
+.no-style-link, a {
   color: inherit;
   text-decoration: inherit;
 }
