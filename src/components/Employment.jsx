@@ -78,9 +78,22 @@ const entries = [
     start: "07/2018",
     end: "09/2019",
     bullets: [
+      <span>
+        Responsible for having deep understanding of <b>C++</b> codebase of over
+        150,000 lines of code.
+      </span>,
 
+      <span>
+        Interacted intimately with Windows OS internals using <b>Windows
+        API</b> to implement and debug key features.
+      </span>,
+
+      <span>
+        Worked closely with QA team to deploy quick bug fixes and ensure
+        optimal performance of product.
+      </span>,
     ],
-  }
+  },
 ];
 
 function Entry(props) {
