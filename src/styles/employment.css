@@ -35,9 +35,10 @@ div.entry-header span.company {
   font-weight: 600;
   /* Uncomment below to fix uncentered company name in Brave PDF export. */
   /* left: 40%; */
-  left: 45%;
+  left: 48%;
   position: absolute;
   text-decoration: underline;
+  transform: translate(-50%, 0);
 }
 
 div.entry-header-right {
