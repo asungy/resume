@@ -66,7 +66,7 @@ div.entry-header {
 
 div.entry-header span {
   color: #000000;
-  font-size: 0.95em;
+  font-size: 1.05em;
   margin: 0;
 }
 
@@ -76,6 +76,8 @@ div.entry-header span.title {
 
 div.entry-header span.company {
   font-weight: 600;
+  /* Uncomment below to fix uncentered company name in Brave PDF export. */
+  /* left: 40%; */
   left: 45%;
   position: absolute;
   text-decoration: underline;

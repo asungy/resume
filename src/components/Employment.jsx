@@ -10,15 +10,36 @@ function SectionHeader() {
 const entries = [
   {
     title: "Software Engineer",
-    company: "Epistemix (start-up)",
+    company: "Epistemix",
     location: "Remote",
     start: "02/2022",
     end: "Current",
     bullets: [
-      "TODO-1",
-      "TODO-2",
-      "TODO-3"
-    ]
+      <span>
+        Worked in a fast-pace, <b>start-up</b> environment delivering
+        high-quality, documented code in a timely fashion.
+      </span>,
+
+      <span>
+        Responsible for developing and deploying client-facing <b>Python</b>
+        &nbsp;package used in SaaS platform product.
+      </span>,
+
+      <span>
+        Methodically planned and executed rearchitecture plans in <b>Rust</b>
+        &nbsp;to ensure longevity and performance of product.
+      </span>,
+
+      <span>
+        Performed enhancements and streamlined build system of core engine
+        software using <b>C++</b> best practices.
+      </span>,
+
+      <span>
+        Ensured consistency and quality of various software products using&nbsp;
+        <b>GitHub Actions</b> and <b>Docker</b>.
+      </span>,
+    ],
   },
   {
     title: "Performance Test Engineer",
