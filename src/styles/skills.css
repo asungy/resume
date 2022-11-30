@@ -5,9 +5,20 @@
 div.section-header {
   font-size: 1.15em;
   font-weight: 600;
+  margin-bottom: 2.00mm;
 }
 
 div.section-header img {
   width: 1.15em;
   height: auto;
+}
+
+div.skill-section {
+  margin-bottom: 2.50mm;
+}
+
+span.level {
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 105%;
 }
