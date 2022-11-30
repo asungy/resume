@@ -1,9 +1,17 @@
 import "../styles/employment.css";
+import memoEmoji from "../assets/memo_emoji.png";
 
 function SectionHeader() {
   return (
     <div className="section-header">
-      <span><span style={{fontSize: "90%"}}>📝</span> Employment</span>
+      <span>
+        <img
+          src={memoEmoji}
+          alt="memo emoji"
+        />
+        <span>&nbsp;</span>
+        <span>Employment</span>
+      </span>
       <hr/>
     </div>
   );

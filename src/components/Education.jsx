@@ -1,9 +1,17 @@
 import "../styles/education.css";
+import graduationCapEmoji from "../assets/graduation_cap_emoji.png";
 
 function SectionHeader() {
   return (
     <div className="section-header">
-      <span><span style={{fontSize: "100%"}}>🎓</span> Education</span>
+      <span>
+        <img
+          src={graduationCapEmoji}
+          alt="graduation cap emoji"
+        />
+        <span>&nbsp;</span>
+        <span>Education</span>
+      </span>
       <hr/>
     </div>
   );

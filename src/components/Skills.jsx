@@ -1,9 +1,17 @@
 import "../styles/skills.css";
+import bicepEmoji from "../assets/bicep_emoji.png";
 
 function SectionHeader() {
   return (
     <div className="section-header">
-      <span><span style={{fontSize: "100%"}}>💪</span> Skills</span>
+      <span>
+        <img
+          src={bicepEmoji}
+          alt="bicep emoji"
+        />
+        <span>&nbsp;</span>
+        <span>Skills</span>
+      </span>
       <hr/>
     </div>
   );
