@@ -3,7 +3,7 @@ import "../styles/employment.css";
 function SectionHeader() {
   return (
     <div className="section-header">
-      <span>Employment</span>
+      <span><span style={{fontSize: "90%"}}>📝</span> Employment</span>
       <hr/>
     </div>
   );

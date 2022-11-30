@@ -1,4 +1,5 @@
 import "../styles/resume.css";
+import Education from "./Education";
 import Employment from "./Employment";
 import Header from "./Header";
 
@@ -8,6 +9,7 @@ function Resume() {
       <div className="content">
         <Header />
         <Employment />
+        <Education />
       </div>
     </div>
   );
