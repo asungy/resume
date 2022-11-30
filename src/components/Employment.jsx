@@ -48,9 +48,26 @@ const entries = [
     start: "08/2020",
     end: "01/2022",
     bullets: [
-      <i>TODO-1</i>,
-      <b>TODO-2</b>
-    ]
+      <span>
+        Engineered tests to measure performance of critical applications at
+        scale using JMeter and Groovy.
+      </span>,
+
+      <span>
+        Developed <b>Java</b> applications to perform large-scale data staging efforts
+        saving hundreds of manual hours.
+      </span>,
+
+      <span>
+        Architected graphing utility using <b>Express</b> and <b>ReactJS</b> to
+        streamline data analysis and reporting.
+      </span>,
+
+      <span>
+        Leveraged software engineering experience to develop tailored solutions
+        for customers using <b>Python</b>.
+      </span>,
+    ],
   }
 ];
 
