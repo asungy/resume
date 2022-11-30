@@ -102,6 +102,29 @@ const entries = [
       </span>,
     ],
   },
+  {
+    title: "AI Research Intern",
+    company: "U.S Naval Research Laboratory",
+    location: "Washington D.C.",
+    start: "05/2016",
+    end: "08/2016",
+    bullets: [
+      <span>
+        Explored methods for incorporating PGMs CNNs in order to increase
+        accuracy in vision detection problems.
+      </span>,
+
+      <span>
+        Used <b>Python</b> for modeling probabilistic graphical models and
+        setting up data pipelines.
+      </span>,
+
+      <span>
+        Concluded using PGMs oversaturate weights in convoluted neural
+        networks, rendering them useless.
+      </span>,
+    ],
+  },
 ];
 
 function Entry(props) {
