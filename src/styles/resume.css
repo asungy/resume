@@ -1,34 +1,24 @@
-.page {
+div.page {
   /* A4 sizing */
   width: 210mm;
   height: 297mm;
 
-  background: white;
-  display: flex;
-  margin: 0;
+  /* Hack fix for Brave */
+  border: 1px solid black;
 
-  font-family: "Times New Roman";
+  background: white;
 }
 
-.header {
-  text-align: center;
-  width: 100%;
-  padding-top: 5px;
+div.content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman";
+  max-height: 100%;
+  margin: 3.00mm 7.00mm;
 }
 
 /* Links with no style */
-.no-style-link, a {
+a.no-style-link {
   color: inherit;
   text-decoration: inherit;
-}
-
-/* Image icons in the info bar */
-.info-icon, img {
-  width: 1.15em;
-  height: auto;
-}
-
-#header-name {
-  font-size: 1.75em;
-  font-weight: bold;
 }
