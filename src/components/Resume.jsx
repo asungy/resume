@@ -2,6 +2,7 @@ import "../styles/resume.css";
 import Education from "./Education";
 import Employment from "./Employment";
 import Header from "./Header";
+import Skills from "./Skills";
 
 function Resume() {
   return (
@@ -10,6 +11,7 @@ function Resume() {
         <Header />
         <Employment />
         <Education />
+        <Skills />
       </div>
     </div>
   );
