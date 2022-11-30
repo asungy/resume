@@ -2,6 +2,7 @@ import "../styles/resume.css";
 import Education from "./Education";
 import Employment from "./Employment";
 import Header from "./Header";
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 function Resume() {
@@ -12,6 +13,7 @@ function Resume() {
         <Employment />
         <Education />
         <Skills />
+        <Projects />
       </div>
     </div>
   );
