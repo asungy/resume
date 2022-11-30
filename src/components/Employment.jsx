@@ -1,3 +1,5 @@
+import "../styles/employment.css";
+
 function SectionHeader() {
   return (
     <div className="section-header">

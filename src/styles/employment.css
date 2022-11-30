@@ -1,0 +1,53 @@
+#employment {
+  margin-top: 3.50mm;
+}
+
+div.section-header {
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+.section-header span, hr {
+  color: #000000;
+  margin: 0;
+}
+
+div.employment-entry {
+  margin-top: 0.60em;
+}
+
+div.entry-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.entry-header span {
+  color: #000000;
+  font-size: 1.05em;
+  margin: 0;
+}
+
+div.entry-header span.title {
+  font-weight: 600;
+}
+
+div.entry-header span.company {
+  font-weight: 600;
+  /* Uncomment below to fix uncentered company name in Brave PDF export. */
+  /* left: 40%; */
+  left: 45%;
+  position: absolute;
+  text-decoration: underline;
+}
+
+div.entry-header-right {
+  display: flex;
+  flex-direction: column;
+  font-size: 92%;
+  text-align: center;
+}
+
+ul.entry-bullets {
+  margin: 0;
+  padding-left: 1em;
+}

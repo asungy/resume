@@ -1,3 +1,4 @@
+import "../styles/header.css";
 import githubIcon from "../assets/github_icon.png";
 import gmailIcon from "../assets/gmail_icon.jpg";
 import linkedinIcon from "../assets/linkedin_icon.png";

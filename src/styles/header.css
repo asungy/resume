@@ -1,0 +1,17 @@
+/* Image icons in the info bar */
+img.info-icon {
+  width: 1.15em;
+  height: auto;
+}
+
+#header {
+  text-align: center;
+  width: 100%;
+}
+
+/* Where your name goes */
+#header-name {
+  font-size: 2.25em;
+  font-weight: bold;
+  padding-bottom: 0.50mm;
+}
