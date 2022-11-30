@@ -68,6 +68,16 @@ const entries = [
         for customers using <b>Python</b>.
       </span>,
     ],
+  },
+  {
+    title: "Software Engineer",
+    company: "AppGuard",
+    location: "Chantilly, VA",
+    start: "07/2018",
+    end: "09/2019",
+    bullets: [
+
+    ],
   }
 ];
 
