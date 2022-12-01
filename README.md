@@ -1,30 +1,19 @@
-# Vite + Deno + React
+# Resume
+
+This is the resume of Alexander Sung. Find downloadable PDFs in the "Releases"
+section of this repo.
 
 ## Running
 
-You need to have Deno v1.28.0 or later intalled to run this repo.
+If you have [Deno](https://deno.land/) v1.28.0 or later, you can start a
+development server in to root directory of this repo with:
 
-Start a dev server:
-
-```
+```bash
 $ deno task dev
 ```
 
-## Deploy
+Alternatively, a development server can be started using `docker-compose` with:
 
-Build production assets:
-
+```bash
+$ docker-compose run --rm dev_server
 ```
-$ deno task build
-```
-
-## Notes
-
-- You need to use `.mjs` or `.mts` extension for the `vite.config.[ext]` file.
-
-## Papercuts
-
-Currently there's a "papercut" for Deno users:
-
-- peer dependencies need to be referenced in `vite.config.js` - in this example
-  it is `react` and `react-dom` packages that need to be referenced
