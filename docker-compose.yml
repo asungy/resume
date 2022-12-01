@@ -1,0 +1,24 @@
+services:
+  dev:
+    profiles: ["dev"]
+    build: .
+    volumes:
+      - type: bind
+        source: .
+        target: /mnt/resume
+    working_dir: /mnt/resume
+    network_mode: host
+    stdin_open: true
+    tty: true
+    command: /bin/bash
+
+  dev_server:
+    profiles: ["dev_server"]
+    build: .
+    volumes:
+      - type: bind
+        source: .
+        target: /mnt/resume
+    working_dir: /mnt/resume
+    network_mode: host
+    command: deno task dev
