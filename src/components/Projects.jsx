@@ -38,7 +38,12 @@ function Entry(props) {
     <div className="project-entry">
       <div className="entry-header">
         <span className="title">{entry.title}</span>
-        <a href={entry.link} className="link">
+        <a
+          href={entry.link}
+          className="link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {entry.link}
         </a>
       </div>

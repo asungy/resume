@@ -65,7 +65,11 @@ function InfoBar() {
       <span>&nbsp;|&nbsp;</span>
 
       <span>
-        <a href="https://www.linkedin.com/in/sungalexander">
+        <a
+          href="https://www.linkedin.com/in/sungalexander"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             className="info-icon"
             src={linkedinIcon}
@@ -74,8 +78,11 @@ function InfoBar() {
           />
         </a>
         <span>&nbsp;</span>
-        <a href="https://www.linkedin.com/in/sungalexander"
+        <a
+          href="https://www.linkedin.com/in/sungalexander"
           className="no-style-link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           linkedin.com/in/sungalexander
         </a>
@@ -84,7 +91,11 @@ function InfoBar() {
       <span>&nbsp;|&nbsp;</span>
 
       <span>
-        <a href="https://www.github.com/asungy">
+        <a
+          href="https://www.github.com/asungy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             className="info-icon"
             src={githubIcon}
@@ -93,8 +104,11 @@ function InfoBar() {
           />
         </a>
         <span>&nbsp;</span>
-        <a href="https://www.github.com/asungy"
+        <a
+          href="https://www.github.com/asungy"
           className="no-style-link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           github.com/asungy
         </a>
