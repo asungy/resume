@@ -15,3 +15,8 @@ img.info-icon {
   font-weight: bold;
   padding-bottom: 0.50mm;
 }
+
+#header a.no-style-link {
+  color: inherit;
+  text-decoration: inherit;
+}

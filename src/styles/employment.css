@@ -7,7 +7,12 @@ div.section-header {
   font-weight: 600;
 }
 
-.section-header span, hr {
+div.section-header img {
+  width: 1.15em;
+  height: auto;
+}
+
+div.section-header span, hr {
   color: #000000;
   margin: 0;
 }
@@ -16,22 +21,22 @@ div.employment-entry {
   margin-top: 2.5mm;
 }
 
-div.entry-header {
+div.employment-entry div.entry-header {
   display: flex;
   justify-content: space-between;
 }
 
-div.entry-header span {
+div.employment-entry div.entry-header span {
   color: #000000;
   font-size: 1.05em;
   margin: 0;
 }
 
-div.entry-header span.title {
+div.employment-entry div.entry-header span.title {
   font-weight: 600;
 }
 
-div.entry-header span.company {
+div.employment-entry div.entry-header span.company {
   font-weight: 600;
   left: 48%;
   position: absolute;
@@ -39,7 +44,7 @@ div.entry-header span.company {
   transform: translate(-50%, 0);
 }
 
-div.entry-header-right {
+div.employment-entry div.entry-header div.entry-header-right {
   display: flex;
   flex-direction: column;
   font-size: 92%;

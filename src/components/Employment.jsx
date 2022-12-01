@@ -1,9 +1,17 @@
 import "../styles/employment.css";
+import memoEmoji from "../assets/memo_emoji.png";
 
 function SectionHeader() {
   return (
     <div className="section-header">
-      <span><span style={{fontSize: "90%"}}>📝</span> Employment</span>
+      <span>
+        <img
+          src={memoEmoji}
+          alt="memo emoji"
+        />
+        <span>&nbsp;</span>
+        <span>Employment</span>
+      </span>
       <hr/>
     </div>
   );
@@ -94,6 +102,29 @@ const entries = [
       </span>,
     ],
   },
+  {
+    title: "AI Research Intern",
+    company: "U.S Naval Research Laboratory",
+    location: "Washington D.C.",
+    start: "05/2016",
+    end: "08/2016",
+    bullets: [
+      <span>
+        Explored methods for incorporating PGMs CNNs in order to increase
+        accuracy in vision detection problems.
+      </span>,
+
+      <span>
+        Used <b>Python</b> for modeling probabilistic graphical models and
+        setting up data pipelines.
+      </span>,
+
+      <span>
+        Concluded using PGMs oversaturate weights in convoluted neural
+        networks, rendering them useless.
+      </span>,
+    ],
+  },
 ];
 
 function Entry(props) {
@@ -110,7 +141,14 @@ function Entry(props) {
       </div>
 
       <ul className="entry-bullets">
-        {entry.bullets.map((bullet) => <li>{bullet}</li>)}
+        {
+          entry.bullets.map((bullet, index) => {
+            /* Not the best practice, but suffices.
+             * See: https://reactjs.org/docs/lists-and-keys.html#keys
+             */
+            return (<li key={index}>{bullet}</li>);
+          })
+        }
       </ul>
     </div>
   );
@@ -120,7 +158,7 @@ function Entries(props) {
   let entries = props.entries;
   return (
     <div>
-      {entries.map((entry) => <Entry key={entry.title} entry={entry} />)}
+      {entries.map((entry) => <Entry key={entry.company} entry={entry} />)}
     </div>
   );
 }
@@ -129,7 +167,7 @@ function Employment() {
   return (
     <div id="employment">
       <SectionHeader />
-      <Entries entries={entries}/>
+      <Entries entries={entries} />
     </div>
   );
 }

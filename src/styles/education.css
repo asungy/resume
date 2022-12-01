@@ -7,6 +7,11 @@ div.section-header {
   font-weight: 600;
 }
 
+div.section-header img {
+  width: 1.15em;
+  height: auto;
+}
+
 div.entry {
   display: flex;
   justify-content: space-between;
