@@ -16,9 +16,3 @@ div.content {
   max-height: 100%;
   margin: 3.00mm 7.00mm;
 }
-
-/* Links with no style */
-a.no-style-link {
-  color: inherit;
-  text-decoration: inherit;
-}

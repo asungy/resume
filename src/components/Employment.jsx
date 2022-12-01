@@ -141,7 +141,14 @@ function Entry(props) {
       </div>
 
       <ul className="entry-bullets">
-        {entry.bullets.map((bullet) => <li>{bullet}</li>)}
+        {
+          entry.bullets.map((bullet, index) => {
+            /* Not the best practice, but suffices.
+             * See: https://reactjs.org/docs/lists-and-keys.html#keys
+             */
+            return (<li key={index}>{bullet}</li>);
+          })
+        }
       </ul>
     </div>
   );
@@ -151,7 +158,7 @@ function Entries(props) {
   let entries = props.entries;
   return (
     <div>
-      {entries.map((entry) => <Entry key={entry.title} entry={entry} />)}
+      {entries.map((entry) => <Entry key={entry.company} entry={entry} />)}
     </div>
   );
 }
@@ -160,7 +167,7 @@ function Employment() {
   return (
     <div id="employment">
       <SectionHeader />
-      <Entries entries={entries}/>
+      <Entries entries={entries} />
     </div>
   );
 }

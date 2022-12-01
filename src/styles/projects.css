@@ -11,3 +11,27 @@ div.section-header img {
   width: 1.15em;
   height: auto;
 }
+
+div.project-entry div.entry-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.project-entry div.entry-header span {
+  color: #000000;
+  font-size: 1.05em;
+  margin: 0;
+}
+
+div.project-entry div.entry-header span.title {
+  font-weight: 600;
+}
+
+div.project-entry div.entry-header a.link {
+  text-decoration: underline;
+  color: inherit;
+}
+
+div.project-entry div.description-div {
+  margin-top: 1.50mm;
+}
