@@ -23,13 +23,20 @@ const entries = [
     link: "https://github.com/asungy/resume",
     description:
       <span>
-        This resume you're reading right now is written in <b>ReactJS</b>! I
-        wanted to solve the frustration of not being able to conveniently modify
-        and version control my resume. Now, I can easily add new information (as&nbsp;
-        <b>JavaScript</b> objects) and the <b>CSS</b> takes care of the
-        formatting.
+        This resume you're reading right now is written in <b>ReactJS</b>!
+        Originally, I wrote my resume using Word documents and I wanted to solve
+        the frustration of not being able to conveniently modify and version
+        control my resume.
       </span>,
   },
+  {
+    title: "Kodo",
+    link: "https://github.com/asungy/kodo",
+    description:
+      <span>
+        Currently working on developing a rendering engine in the browser using <b>Rust</b>.
+      </span>,
+  }
 ]
 
 function Entry(props) {

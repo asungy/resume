@@ -31,14 +31,15 @@ const entries = [
       </span>,
 
       <span>
-        Responsible for developing and deploying client-facing <b>Python</b>
+        Responsible for development lifecycle of client-facing <b>Python</b>
         &nbsp;package used in SaaS platform product.
       </span>,
 
-      <span>
-        Methodically planned and executed rearchitecture plans in <b>Rust</b>
-        &nbsp;to ensure longevity and performance of product.
-      </span>,
+      // NOTE: Uncomment when development is further along.
+      // <span>
+      //   Methodically planned and executed rearchitecture plans in <b>Rust</b>
+      //   &nbsp;to ensure longevity and performance of product.
+      // </span>,
 
       <span>
         Performed enhancements and streamlined build system of core engine
@@ -49,6 +50,10 @@ const entries = [
         Ensured consistency and quality of various software products using&nbsp;
         <b>GitHub Actions</b> and <b>Docker</b>.
       </span>,
+
+      <span>
+        Ownership of customer onboarding experience and product learning materials.
+      </span>
     ],
   },
   {

@@ -12,6 +12,10 @@ div.section-header img {
   height: auto;
 }
 
+div.project-entry {
+  margin-bottom: 3.5mm;
+}
+
 div.project-entry div.entry-header {
   display: flex;
   justify-content: space-between;
