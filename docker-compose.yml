@@ -12,8 +12,8 @@ services:
     tty: true
     command: /bin/bash
 
-  dev_server:
-    profiles: ["dev_server"]
+  server:
+    profiles: ["server"]
     build: .
     volumes:
       - type: bind
