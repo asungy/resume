@@ -24,6 +24,7 @@ const entries = [
     location: "Remote",
     start: "02/2022",
     end: "Current",
+    url: "https://www.epistemix.com/",
     bullets: [
       <span>
         Worked in a fast-pace, <b>start-up</b> environment delivering
@@ -57,6 +58,7 @@ const entries = [
     location: "Remote",
     start: "08/2020",
     end: "01/2022",
+    url: "https://www.visionpointsystems.com/",
     bullets: [
       <span>
         Engineered tests to measure performance of critical applications at
@@ -85,6 +87,7 @@ const entries = [
     location: "Chantilly, VA",
     start: "07/2018",
     end: "09/2019",
+    url: "https://www.appguard.us/",
     bullets: [
       <span>
         Responsible for having deep understanding of <b>C++</b> codebase of over
@@ -108,6 +111,7 @@ const entries = [
     location: "Washington D.C.",
     start: "05/2016",
     end: "08/2016",
+    url: "https://www.nrl.navy.mil/",
     bullets: [
       <span>
         Explored methods for incorporating PGMs CNNs in order to increase
@@ -131,6 +135,7 @@ const entries = [
     location: "Blacksburg, VA",
     start: "09/2015",
     end: "05/2016",
+    url: "https://www.ssrg.ece.vt.edu/",
     bullets: [
       <span>
         Performed benchmark testing of Popcorn Linux, an operating system
@@ -153,7 +158,13 @@ function Entry(props) {
     <div className="employment-entry">
       <div className="entry-header">
         <span className="title">{entry.title}</span>
-        <span className="company">{entry.company}</span>
+        <a
+          href={entry.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="company">{entry.company}</span>
+        </a>
         <div className="entry-header-right">
           <span>{entry.start} - {entry.end}</span>
           <span style={{fontStyle: "italic"}}>{entry.location}</span>
