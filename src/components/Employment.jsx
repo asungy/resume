@@ -159,11 +159,12 @@ function Entry(props) {
       <div className="entry-header">
         <span className="title">{entry.title}</span>
         <a
+          className="company"
           href={entry.url}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="company">{entry.company}</span>
+          {entry.company}
         </a>
         <div className="entry-header-right">
           <span>{entry.start} - {entry.end}</span>

@@ -36,7 +36,8 @@ div.employment-entry div.entry-header span.title {
   font-weight: 600;
 }
 
-div.employment-entry div.entry-header span.company {
+div.employment-entry div.entry-header a.company {
+  color: inherit;
   font-weight: 600;
   left: 48%;
   position: absolute;
