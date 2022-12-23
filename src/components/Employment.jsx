@@ -47,8 +47,13 @@ const entries = [
       </span>,
 
       <span>
-        Responsible for ensuring easy customer onboarding experience and
-        product learning materials.
+        Liaised between engineering and research teams to ensure simulation
+        models executed successfully.
+      </span>,
+
+      <span>
+        Responsible for customer onboarding experience processes and product
+        learning materials.
       </span>
     ],
   },
