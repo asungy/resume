@@ -29,14 +29,6 @@ const entries = [
         control my resume.
       </span>,
   },
-  {
-    title: "Kodo",
-    link: "https://github.com/asungy/kodo",
-    description:
-      <span>
-        Currently working on developing a rendering engine in the browser using <b>Rust</b>.
-      </span>,
-  }
 ]
 
 function Entry(props) {

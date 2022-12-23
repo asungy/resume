@@ -59,8 +59,8 @@ const skills = {
     "S3",
     "Tensorflow",
     "TypeScript",
+    "WebAssembly",
     "WebGPU",
-    "Windows API",
     "x86",
   ],
 };

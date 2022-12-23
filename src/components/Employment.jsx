@@ -31,15 +31,9 @@ const entries = [
       </span>,
 
       <span>
-        Responsible for development lifecycle of client-facing <b>Python</b>
+        Ownership over development lifecycle of client-facing <b>Python</b>
         &nbsp;package used in SaaS platform product.
       </span>,
-
-      // NOTE: Uncomment when development is further along.
-      // <span>
-      //   Methodically planned and executed rearchitecture plans in <b>Rust</b>
-      //   &nbsp;to ensure longevity and performance of product.
-      // </span>,
 
       <span>
         Performed enhancements and streamlined build system of core engine
@@ -52,7 +46,8 @@ const entries = [
       </span>,
 
       <span>
-        Ownership of customer onboarding experience and product learning materials.
+        Responsible for ensuring easy customer onboarding experience and
+        product learning materials.
       </span>
     ],
   },
@@ -127,6 +122,26 @@ const entries = [
       <span>
         Concluded using PGMs oversaturate weights in convoluted neural
         networks, rendering them useless.
+      </span>,
+    ],
+  },
+  {
+    title: "UG Research Assistant",
+    company: "SSRG",
+    location: "Blacksburg, VA",
+    start: "09/2015",
+    end: "05/2016",
+    bullets: [
+      <span>
+        Performed benchmark testing of Popcorn Linux, an operating system
+        designed for Instruction Set Architecture heterogeneous hardware,
+        multi-core architectures, and optimized scalability.
+      </span>,
+      <span>
+        Used <b>Python</b> and <b>Octave</b> to analyze and plot results.
+      </span>,
+      <span>
+        Presented project and results at conferences to sponsors and stakeholders.
       </span>,
     ],
   },
