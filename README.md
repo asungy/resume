@@ -20,5 +20,5 @@ $ deno task dev
 Alternatively, a development server can be started using `docker-compose` with:
 
 ```bash
-$ docker-compose run --rm dev_server
+$ docker-compose run --rm server
 ```
