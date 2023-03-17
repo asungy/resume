@@ -32,13 +32,18 @@ const entries = [
       </span>,
 
       <span>
-        Ownership over development lifecycle of client-facing <b>Python</b>
-        &nbsp;package used in SaaS platform product.
+        Project owner of company <b>Python</b> package that allow <b>SaaS
+        platform</b> end-users to run simulations on the cloud.
       </span>,
 
       <span>
-        Performed enhancements and streamlined build system of core engine
-        software using <b>C++</b> best practices.
+        Developed <b>Rust</b> backend and <b>Python</b> client frontend from
+        scratch establishing communication via <b>gRPC</b>.
+      </span>,
+
+      <span>
+        Enhanced and streamlined build system of core engine
+        software using <b>C++</b> and <b>CMake</b> best practices.
       </span>,
 
       <span>
@@ -47,14 +52,14 @@ const entries = [
       </span>,
 
       <span>
-        Liaised between engineering and research teams to ensure simulation
-        models executed successfully.
+        Performed <b>data engineering</b> tasks to migrate, validate, and
+        manage large synthetic population data.
       </span>,
 
       <span>
-        Responsible for customer onboarding experience processes and product
-        learning materials.
-      </span>
+        Kicked off customer-facing outreach opportunities to gather feedback to
+        improve product.
+      </span>,
     ],
   },
   {
