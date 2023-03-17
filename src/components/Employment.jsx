@@ -27,8 +27,8 @@ const entries = [
     url: "https://www.epistemix.com/",
     bullets: [
       <span>
-        Worked in a fast-pace, <b>start-up</b> environment delivering
-        high-quality, documented code in a timely fashion.
+        Worked in <b>start-up</b> with fast-pace, <b>Agile</b> environment
+        assuming various roles and responsibilities.
       </span>,
 
       <span>
@@ -47,7 +47,7 @@ const entries = [
       </span>,
 
       <span>
-        Ensured consistency and quality of various software products using&nbsp;
+        Ensured quality of various software products by automating tasks with&nbsp;
         <b>GitHub Actions</b> and <b>Docker</b>.
       </span>,
 
