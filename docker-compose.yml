@@ -21,4 +21,4 @@ services:
         target: /mnt/resume
     working_dir: /mnt/resume
     network_mode: host
-    command: deno task dev --host
+    command: deno task dev
