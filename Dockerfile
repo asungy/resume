@@ -1,8 +1,6 @@
-FROM ubuntu:22.04
+FROM archlinux:latest
 
-RUN apt-get update \
-    && apt-get upgrade -y \
-    && DEBIAN_FRONTEND=noninteractive apt-get install -y \
+RUN pacman -Syu --noconfirm \
         curl \
         unzip \
     && :
@@ -11,5 +9,3 @@ RUN apt-get update \
 RUN curl -fsSL https://deno.land/x/install/install.sh | sh
 ENV DENO_INSTALL="/root/.deno"
 ENV PATH="${PATH}:${DENO_INSTALL}/bin"
-
-CMD echo "Sleeping indefinitely..." && sleep infinity
