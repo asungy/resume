@@ -23,7 +23,7 @@ const entries = [
     company: "Epistemix",
     location: "Remote",
     start: "02/2022",
-    end: "Current",
+    end: "08/2023",
     url: "https://www.epistemix.com/",
     bullets: [
       <span>
