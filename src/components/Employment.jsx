@@ -55,11 +55,6 @@ const entries = [
         Performed <b>data engineering</b> tasks to migrate, validate, and
         manage large synthetic population data.
       </span>,
-
-      <span>
-        Kicked off customer-facing outreach opportunities to gather feedback to
-        improve product.
-      </span>,
     ],
   },
   {
