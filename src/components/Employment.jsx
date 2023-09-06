@@ -19,6 +19,15 @@ function SectionHeader() {
 
 const entries = [
   {
+    title: "Full Stack Engineer",
+    company: "JHUAPL",
+    location: "Laurel, MD",
+    start: "09/2023",
+    end: "current",
+    url: "https://www.jhuapl.edu/",
+    bullets: [],
+  },
+  {
     title: "Software Engineer",
     company: "Epistemix",
     location: "Remote",
