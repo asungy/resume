@@ -13,7 +13,6 @@ function Resume() {
         <Employment />
         <Education />
         <Skills />
-        <Projects />
       </div>
     </div>
   );

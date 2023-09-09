@@ -25,7 +25,11 @@ const entries = [
     start: "09/2023",
     end: "current",
     url: "https://www.jhuapl.edu/",
-    bullets: [],
+    bullets: [
+      <span>
+        Working in the A3J Human-Machine Engineering group at the Johns Hopkins University Applied Physics Laboratory.
+      </span>,
+    ],
   },
   {
     title: "Software Engineer",
